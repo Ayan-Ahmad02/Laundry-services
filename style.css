@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    overflow:hidden;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Logo {
+    margin: 0;
+    display: inline-block;
+    padding: 1px;
+    margin-left: 20px;
+    font-size: 29px;
+}
+
+
+.link-nav {
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+
+
+.link-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.link-nav li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.link-nav li a:hover {
+    color :black
+}
+
+
+.login {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    color: rgb(47, 211, 214);
+    background-color: rgba(135, 227, 250, 0.434);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(47, 211, 214);
+    color: white;
+}
+
+.text {
+    /* border: 1px solid black; */
+    width: 45%;
+    float: left;
+    margin-top:60px;
+    margin-left:20px;
+    height: auto;
+    word-spacing: normal;
+}
+
+span {
+    color: skyblue;
+}
+
+p {
+    text-align: left;
+}
+
+.btn {
+    padding: 20px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    background-color: skyblue;
+    color:white;
+}
+
+.img-area {
+    float: right;
+    display: inline-block;
+    width: 45%;
+    margin-top:40px;
+    margin-right:20px;
+}
